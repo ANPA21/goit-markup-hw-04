@@ -104,6 +104,17 @@ nav {
   display: flex;
   margin-left: auto;
 }
+/* .cont-menu .btn {
+  border: none;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+} */
+/* .cont-menu .icon {
+  fill: red;
+  max-width: 16px;
+  max-height: 12px;
+} */
 .cont-menu .item:not(:last-child) {
   padding-right: 50px;
 }
@@ -410,7 +421,7 @@ nav {
   margin-bottom: 30px;
 }
 .port-card:hover {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .port-card:nth-child(3n) {
