@@ -104,15 +104,10 @@ nav {
   display: flex;
   margin-left: auto;
 }
-.cont-menu .icon-link {
-  display: flex;
-  align-items: center;
-  border: none;
-  background-color: #fff;
-  margin-right: 10px;
-}
+
 .cont-menu .icon {
   fill: var(--color-alt);
+  margin-right: 10px;
 }
 .mail {
   max-width: 16px;
@@ -123,10 +118,10 @@ nav {
   max-height: 16px;
 }
 .cont-menu .item:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 .cont-link {
-  display: block;
+  display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--color-alt);
@@ -141,10 +136,7 @@ nav {
 
 /* ---------------------------main--------------------------- */
 .hero {
-  /* padding-bottom: 94px; */
   text-align: center;
-  /* padding-bottom: 200px; */
-  /* padding-top: 200px; */
 }
 
 .hero .overlay {
@@ -213,10 +205,6 @@ nav {
   max-width: calc((100%-30px));
 }
 
-/* .features .icon:hover {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-} */
-
 .features-title {
   margin-bottom: 10px;
 
@@ -226,7 +214,6 @@ nav {
   font-weight: 700;
   text-transform: uppercase;
 }
-/* .features-text {} */
 
 /* ----------------------about us gallery---------------------- */
 
